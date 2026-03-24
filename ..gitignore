@@ -1,0 +1,128 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# Distribución / empaquetado
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# =========================
+# Pytest / coverage / type check
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+
+# =========================
+# VS Code / IDEs
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Ultralytics / YOLO
+# =========================
+runs/
+wandb/
+mlruns/
+tensorboard/
+events.out.tfevents.*
+
+# Cachés de labels/datasets
+*.cache
+
+# Pesos y checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+
+# Predicciones / exportaciones
+predict/
+predictions/
+inference_outputs/
+exports/
+
+# =========================
+# Datos grandes
+# =========================
+data/
+datasets/
+images/
+videos/
+media/
+artifacts/
+
+# Mantener estructura vacía opcional
+!data/.gitkeep
+!datasets/.gitkeep
+
+# =========================
+# Resultados
+# =========================
+results/
+outputs/
+reports/
+
+# =========================
+# Archivos temporales
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Si quieres conservar config/base docs
+# =========================
+!README.md
+!requirements.txt
+!environment.yml
+!data.yaml

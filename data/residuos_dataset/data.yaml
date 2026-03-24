@@ -1,0 +1,15 @@
+path: C:/Users/jujob/OneDrive/Escritorio/Maestria/Segundo_Semestre/Vision Computacional/Proyecto_2/repo/proyecto_yolo_residuos/data/residuos_dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names:
+  0: Electronics
+  1: Glass
+  2: Metal
+  3: Miscellaneous
+  4: Organic
+  5: Paper
+  6: Plastic
