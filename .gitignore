@@ -76,7 +76,6 @@ events.out.tfevents.*
 *.cache
 
 # Pesos y checkpoints
-*.pt
 *.pth
 *.onnx
 *.engine
