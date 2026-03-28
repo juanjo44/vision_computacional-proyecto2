@@ -1,5 +1,5 @@
 zlib1g-dev
 libjpeg-dev
 libpng-dev
-libfreetype6-dev
+libfreetype-dev
 pkg-config
