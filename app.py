@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 BASE_DIR    = Path(__file__).parent
-MODEL_PATH  = BASE_DIR / "models" / "best.pt"
+MODEL_PATH  = BASE_DIR / "models" / "residuosyolo11s_v2.pt"
 
 @st.cache_resource
 def load_model(path: str):
